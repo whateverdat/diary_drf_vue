@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  button {
+    @apply shadow-sm text-white min-w-[5rem] bg-black bg-opacity-5 rounded-lg p-1 mx-auto transition-all w-fit hover:text-black disabled:hover:text-white;
+  }
+  input {
+    @apply hover:shadow-lg focus:shadow-md;
+  }
+}
+
+:root {
+  background-color: #cda882;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
